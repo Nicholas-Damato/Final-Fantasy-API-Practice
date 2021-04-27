@@ -20,6 +20,7 @@ class Characters extends Component {
             <p> GENDER:{characters.gender} </p>
             <p> RACE:{characters.race} </p>
             <p> JOB:{characters.job} </p>
+            <p> JOB:{characters.origin} </p>
             <p>{characters.description}</p>
           </div>
         )}
