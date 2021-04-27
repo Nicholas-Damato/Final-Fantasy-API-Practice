@@ -16,6 +16,10 @@ class Characters extends Component {
         {characters && (
           <div>
             <img alt={characters.name} src={characters.pictures.url} />
+            <p> AGE:{characters.age} </p>
+            <p> GENDER:{characters.gender} </p>
+            <p> RACE:{characters.race} </p>
+            <p> JOB:{characters.job} </p>
             <p>{characters.description}</p>
           </div>
         )}
